@@ -371,7 +371,7 @@ __metadata:
     tailwindcss: "npm:3.4.13"
     typescript: "npm:latest"
     typescript-eslint: "npm:8.39.0"
-    vite: "npm:5.3.4"
+    vite: "npm:5.4.20"
     vite-tsconfig-paths: "npm:4.3.2"
     vitest: "npm:3.1.2"
     webpack: "npm:5.94.0"
@@ -11317,7 +11317,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.23, postcss@npm:^8.4.39, postcss@npm:^8.5.3":
+"postcss@npm:^8.4.23, postcss@npm:^8.4.43, postcss@npm:^8.5.3":
   version: 8.5.6
   resolution: "postcss@npm:8.5.6"
   dependencies:
@@ -11756,7 +11756,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^4.13.0, rollup@npm:^4.34.9":
+"rollup@npm:^4.20.0, rollup@npm:^4.34.9":
   version: 4.52.5
   resolution: "rollup@npm:4.52.5"
   dependencies:
@@ -13375,19 +13375,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:5.3.4":
-  version: 5.3.4
-  resolution: "vite@npm:5.3.4"
+"vite@npm:5.4.20":
+  version: 5.4.20
+  resolution: "vite@npm:5.4.20"
   dependencies:
     esbuild: "npm:^0.21.3"
     fsevents: "npm:~2.3.3"
-    postcss: "npm:^8.4.39"
-    rollup: "npm:^4.13.0"
+    postcss: "npm:^8.4.43"
+    rollup: "npm:^4.20.0"
   peerDependencies:
     "@types/node": ^18.0.0 || >=20.0.0
     less: "*"
     lightningcss: ^1.21.0
     sass: "*"
+    sass-embedded: "*"
     stylus: "*"
     sugarss: "*"
     terser: ^5.4.0
@@ -13403,6 +13404,8 @@ __metadata:
       optional: true
     sass:
       optional: true
+    sass-embedded:
+      optional: true
     stylus:
       optional: true
     sugarss:
@@ -13411,7 +13414,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/604a1c8698bcf09d6889533c552f20137c80cb5027e9e7ddf6215d51e3df763414f8712168c22b3c8c16383aff9447094c05f21d7cca3c115874ff9d12e1538e
+  checksum: 10c0/391a1fdd7e05445d60aa3b15d6c1cffcdd92c5d154da375bf06b9cd5633c2387ebee0e8f2fceed3226a63dff36c8ef18fb497662dde8c135133c46670996c7a1
   languageName: node
   linkType: hard
 
