@@ -1,0 +1,35 @@
+{
+  "name": "@clevergy/frontend-hiring-test",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "format": "biome format --write .",
+    "lint": "biome lint .",
+    "lint:unsafe": "biome lint --unsafe --write .",
+    "build": "nx run-many --target=build",
+    "dev": "nx run-many --target=dev --all --maxParallel=100",
+    "test": "nx run-many --target=test",
+    "commitlint": "commitlint --edit"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.2",
+    "@commitlint/cli": "18.6.0",
+    "@commitlint/config-conventional": "18.6.0",
+    "husky": "8.0.3",
+    "lint-staged": "16.1.5",
+    "nx": "17.1.3",
+    "tsx": "4.16.2",
+    "typescript": "latest"
+  },
+  "lint-staged": {
+    "*": "yarn format && yarn lint"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "yarn@4.3.1"
+}

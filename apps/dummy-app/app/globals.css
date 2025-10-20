@@ -1,0 +1,4 @@
+/** biome-ignore-all lint/suspicious/noUnknownAtRules: Tailwind at-rules are valid */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

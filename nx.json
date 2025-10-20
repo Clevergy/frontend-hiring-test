@@ -1,0 +1,27 @@
+{
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["lint", "build", "test", "test:coverage"]
+      }
+    }
+  },
+  "targetDefaults": {
+    "lint": {
+      "dependsOn": ["^lint"]
+    },
+    "test": {
+      "dependsOn": ["^test"]
+    },
+    "build": {
+      "outputs": ["{projectRoot}/build"]
+    },
+    "test:coverage": {
+      "outputs": ["{projectRoot}/coverage"]
+    }
+  },
+  "affected": {
+    "defaultBase": "main"
+  }
+}
