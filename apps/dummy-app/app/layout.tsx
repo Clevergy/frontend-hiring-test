@@ -1,13 +1,8 @@
-import type { ReactNode } from 'react';
-import './globals.css';
 import { QueryProvider } from '@/context/QueryContext';
 import { UIProvider } from '@/context/UIContext';
+import './globals.css';
 
-export type RootLayoutProps = {
-  children: ReactNode;
-};
-
-export default async function RootLayout(props: RootLayoutProps) {
+export default async function RootLayout(props: LayoutProps<'/'>) {
   const { children } = props;
 
   return (
