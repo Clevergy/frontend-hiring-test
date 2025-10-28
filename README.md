@@ -11,3 +11,4 @@
 2. Clone the repo to your local folder
 3. In the project directory, run `yarn` to install dependencies.
 4. Use `yarn dev` to start the development environment.
+5. Open http://localhost:3003 in your browser
