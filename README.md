@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- **NodeJS v20.16.0:** If you don't have this version, install NVM (Node Version Manager) using `brew` or your desired method, then run `nvm install 20.16` and `nvm use 20.19`
+- **NodeJS v20.16.0:** If you don't have this version, install NVM (Node Version Manager) using `brew` or your desired method, then run `nvm install 20.16` and `nvm use 20.16`
 - **Yarn:** If you don't have it, install it using `npm install -g yarn`
 
 ## Preparing
